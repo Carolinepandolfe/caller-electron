@@ -1,0 +1,13 @@
+.footer{
+    background-color: #336BC6;
+    position: relative;
+}
+
+.footer__img{
+    width: 150px;
+    padding: 10px;
+}
+
+.footer__slogan{
+    height: 15px;
+}
