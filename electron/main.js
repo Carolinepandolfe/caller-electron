@@ -10,13 +10,16 @@ function createWindow() {
   if (app.dock) {
     app.dock.setIcon(icon);
   }
-
+  
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    // width: 1000,
+    // height: 1600,
     show: false,
     icon: icon,
+    frame: false,
+    // fullscreen: true,
   });
+
   const startURL = isDev
     ? 'http://localhost:3000'
     : `file://${path.join(__dirname, '../build/index.html')}`;
