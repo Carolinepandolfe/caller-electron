@@ -12,12 +12,10 @@ function createWindow() {
   }
   
   mainWindow = new BrowserWindow({
-    // width: 1000,
-    // height: 1600,
     show: false,
     icon: icon,
     frame: false,
-    // fullscreen: true,
+    fullscreen: true,
   });
 
   const startURL = isDev
