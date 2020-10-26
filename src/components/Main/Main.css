@@ -1,6 +1,92 @@
 .main{
     background-color: #21467E;
-    min-height: 83vh;
+    color: white;
     display: flex;
     justify-content: space-around;
+    min-height: 83vh;
+}
+
+.current{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 130px;
+    min-width: 80vh;
+}
+
+.current__password :nth-child(2){
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 20px;
+    color:  #336BC6;
+    display: flex;
+    justify-content: center;
+    width: 370px;
+}
+
+.current__password{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.current__password :nth-child(2), .current__room :nth-child(2){
+    animation: blinker 5s step-end 3;
+}
+
+@keyframes blinker {
+    50% {
+        background-color: #ff0808a2;
+        color:white;
+        border:  #19297c solid 2px;
+    }
+}
+
+
+.current__room :nth-child(2){
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 20px;
+    color:  #336BC6;
+    display: flex;
+    justify-content: center;
+    width: 260px;
+}
+
+.current__room{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.last{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 75px;
+}
+
+.last-call{
+    margin-top: 10px;
+    width: 500px; 
+    text-align: center;
+}
+
+.last__caller{
+    display: flex;
+    justify-content: space-around;
+    min-width: 75vh;
+}
+
+.last__password{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.last__room{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
