@@ -17,7 +17,7 @@
 .current__password :nth-child(2){
     background-color: white;
     border: white solid 2px;
-    border-radius: 20px;
+    border-radius: 15px;
     color:  #336BC6;
     display: flex;
     justify-content: center;
@@ -38,14 +38,14 @@
     50% {
         background-color: #ff0808a2;
         color:white;
-        border:  #19297c solid 2px;
+        border: #ff0808a2 solid 1px;
     }
 }
 
 .current__room :nth-child(2){
     background-color: white;
     border: white solid 2px;
-    border-radius: 20px;
+    border-radius: 15px;
     color:  #336BC6;
     display: flex;
     justify-content: center;
