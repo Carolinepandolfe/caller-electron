@@ -1,14 +1,17 @@
 .footer{
+    display: flex;
     background-color: #336BC6;
     position: relative;
+    align-items: center;
+    height: 85px;
 }
 
 .footer__img{
     width: 150px;
-    padding: 10px;
+    margin-left: 15px;
 }
 
 .footer__slogan{
-    margin-top: 35px;
     height: 15px;
+    margin: 35px 0 0 15px;
 }
